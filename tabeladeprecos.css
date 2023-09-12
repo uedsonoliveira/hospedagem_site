@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+/*Menu*/
+.menu{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: #2f86d6;
+}
+
+.img-logo{
+    width: 70px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.menu h1{
+    position: absolute;
+    top: 20%;
+    left: 16%;
+    font-size: 25px;
+}
+
+.menu p{
+    position: absolute;
+    top: 50%;
+    left: 16%;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.link-menu{
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+
+.link{
+    padding: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.link-menu :hover{
+    background-color: #233032;
+    color: #fff;
+    box-shadow: 0px 0px 10px 0px #f1f3f7;
+    border-radius: 10%;
+}
+
+/*TABELA DE PREÇOS*/
+.div-tabela-precos{
+    background-color: #ffffff;
+    margin: auto;
+    padding: 80px 0px;
+}
+
+.tabela-precos{
+    margin: auto;
+}
+
+.linha2{
+    font-size: 40px;
+    background-color: #23303227;
+}
+
+.linha-vazia{
+    background-color: #ffffff;
+}
+
+.linha1{
+    color: #233032;
+    font-size: 15px;
+    background-color: #23303227;
+}
+
+tr td{
+    text-align: center;
+    padding: 30px;
+}
+
+.coluna1{
+    padding: 20px;
+    font-weight: bold;
+    text-align: left;
+    background-color: #23303227;
+}
+
+.marcador-azul{
+    width: 10px;
+    height: 10px;
+    margin: auto;
+    background-color: #2f86d6;
+    border-radius: 50%;
+}
+
+/*CONTATO*/
+.contato{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: #2f86d6;
+}
+
+.contato img{
+    position: absolute;
+    width: 80px;
+    top: 20%;
+    left: 40%;
+}
+
+.contato h1{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+}
+
+.paragrafo-contato{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.paragrafo2-contato{
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    color: #ffffff;
+}
+
+/*RODAPÉ*/
+.rodape{
+    text-align: center;
+    background-color: #233032;
+    color: #f1f3f7;
+    padding: 1% 0;
+    font-size: 12px;
+}

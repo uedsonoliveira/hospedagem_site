@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+/*Menu*/
+.menu{
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+
+.img-logo{
+    width: 70px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.menu h1{
+    position: absolute;
+    top: 20%;
+    left: 16%;
+    font-size: 25px;
+}
+
+.menu p{
+    position: absolute;
+    top: 50%;
+    left: 16%;
+    font-size: 15px;
+    color: #2f86d6;
+}
+
+.link-menu{
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+
+.link{
+    padding: 10px;
+    text-decoration: none;
+    color: #233032;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.link-menu :hover{
+    background-color: #2f86d6;
+    color: #fff;
+    box-shadow: 0px 0px 10px 0px #2f86d6;
+    border-radius: 10%;
+}
+
+/*BANNER*/
+.banner{
+    background-color: #2f86d6;
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+
+.texto-banner{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    width: 40%;
+}
+
+.p-banner{
+    color: white;
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+.h2-banner{
+    color: #fff;
+    font-size: 30px;
+}
+
+.imagem-banner{
+    position: absolute;
+    top: 15%;
+    right: 10%;
+    width: 40%;
+}
+
+/*PRIMEIRO ANUNCIO*/
+.anuncio1{
+    background-color: #233032;
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+
+.anuncio1 h3{
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    color:#fff;
+    font-size: 25px;
+}
+
+.anuncio1 p{
+    position: absolute;
+    left: 10%;
+    top: 60%;
+    color: #fff;
+    font-size: 15px;
+}
+
+.anuncio1 a{
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    padding: 10px;
+    background-color: #2f86d6;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-anuncio1  :hover{
+    background-color: rgb(207, 204, 212);
+    color: black;
+    box-shadow: 0px 0px 10px 0px #fff;
+}
+
+.anuncio1 img{
+    padding-right: 10px;
+}
+
+/*TABELA INFORMAÇÃO*/
+.informacao{
+    text-align: center;
+    margin: 0 10%;
+    padding-bottom: 60px;
+}
+
+.img-informacao{
+    width: 30%;
+}
+
+.informacao caption{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 40px;
+}
+
+span{
+    color:#2f86d6;
+}
+
+.subtitulo-informacao{
+    font-weight: bold;
+    line-height: 60px;
+}
+
+.paragrafo-informacao{
+    font-size: 15px;
+}
+
+/*TABELA PLANOS*/
+.planos{
+    background-color: #f1f3f7;
+    text-align: center;
+    padding: 60px 0px;
+}
+
+.planos h2{
+    padding-bottom: 80px;
+}
+
+.tabela-planos{
+    margin: 0 10%;
+    background-color: #fff;
+    box-shadow: 0px 0px 30px 10px #2f86d6;
+    padding: 20px;
+    line-height: 40px;
+}
+
+.planos img{
+    width: 40%;
+}
+
+.paragrafo-planos{
+    font-size: 15px;
+    color: #2f86d6;
+    font-weight: bold;
+}
+
+/*SEGUNDO ANUNCIO*/
+.anuncio2{
+    background-color: #2f86d6;
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+
+.anuncio2 h3{
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    color:#fff;
+}
+
+.anuncio2 p{
+    position: absolute;
+    left: 10%;
+    top: 60%;
+    color: #fff;
+    font-size: 15px;
+}
+
+.anuncio2 a{
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    padding: 10px;
+    background-color: #233032;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-anuncio2 :hover{
+    background-color: rgb(207, 204, 212);
+    color: black;
+    box-shadow: 0px 0px 10px 0px #fff;
+}
+
+.anuncio2 img{
+    padding-right: 10px;
+}
+
+/*CONTATO 1*/
+.contato{
+    position: relative;
+    width: 100%;
+    height: 150px;
+}
+
+.contato img{
+    position: absolute;
+    width: 80px;
+    top: 20%;
+    left: 40%;
+}
+
+.contato h1{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+}
+
+.paragrafo-contato{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #2f86d6;
+    font-weight: bold;
+}
+
+/*CONTATO 2*/
+.contato-2{
+    text-align: center;
+    padding-bottom: 20px;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/*RODAPÉ*/
+.rodape{
+    text-align: center;
+    background-color: #233032;
+    color: #f1f3f7;
+    padding: 1% 0;
+    font-size: 12px;
+}
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
